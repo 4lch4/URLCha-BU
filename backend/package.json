@@ -1,0 +1,25 @@
+{
+  "name": "urlcha",
+  "author": {
+    "name": "Alcha",
+    "email": "admin@alcha.org",
+    "url": "https://hasslefree.solutions"
+  },
+  "description": "The backend module for Urlcha.org.",
+  "version": "0.1.0",
+  "main": "urlcha.js",
+  "scripts": {
+    "start": "pm2 start"
+  },
+  "license": "MIT",
+  "standard": {
+    "ignore": "*.test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "short-id": "0.1.0-1",
+    "valid-url": "^1.0.9"
+  }
+}
