@@ -19,7 +19,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongoose": "^5.4.0",
-    "short-id": "0.1.0-1",
+    "short-id": "0.1.0",
     "valid-url": "^1.0.9"
   }
 }
